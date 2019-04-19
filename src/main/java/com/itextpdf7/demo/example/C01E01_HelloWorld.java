@@ -1,0 +1,53 @@
+/*
+    This file is part of the iText (R) project.
+    Copyright (c) 1998-2019 iText Group NV
+    Authors: iText Software.
+
+    For more information, please contact iText Software at this address:
+    sales@itextpdf.com
+ */
+/*
+ * This example is part of the iText 7 tutorial.
+ */
+package com.itextpdf7.demo.example;
+
+
+import com.itextpdf.kernel.pdf.PdfDocument;
+import com.itextpdf.kernel.pdf.PdfWriter;
+import com.itextpdf.layout.Document;
+import com.itextpdf.layout.element.Paragraph;
+
+
+import java.io.File;
+import java.io.IOException;
+
+/**
+ * Simple Hello World example.
+ */
+public class C01E01_HelloWorld {
+
+    public static final String DEST = "F:/pdftest/chapter01/hello_world.pdf";
+
+    public static void main(String args[]) throws IOException {
+        File file = new File(DEST);
+        file.getParentFile().mkdirs();
+        new C01E01_HelloWorld().createPdf(DEST);
+    }
+
+    public void createPdf(String dest) throws IOException {
+        //Initialize PDF writer
+        PdfWriter writer = new PdfWriter(dest);
+
+        //Initialize PDF document
+        PdfDocument pdf = new PdfDocument(writer);
+
+        // Initialize document
+        Document document = new Document(pdf);
+
+        //Add paragraph to the document
+        document.add(new Paragraph("Hello World!"));
+
+        //Close document
+        document.close();
+    }
+}
