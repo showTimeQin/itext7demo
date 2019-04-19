@@ -32,7 +32,7 @@ import java.util.StringTokenizer;
  * Simple table example.
  */
 public class C01E04_UnitedStates {
-    public static final String DATA = "src/main/resources/data/united_states.csv";
+    public static final String DATA = "src/main/resources/static/data/united_states.csv";
 
     public static final String DEST = "F:/pdftest/chapter01/united_states.pdf";
 

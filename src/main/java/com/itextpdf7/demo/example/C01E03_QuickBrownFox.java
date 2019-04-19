@@ -24,8 +24,8 @@ import java.io.IOException;
  * Simple image example.
  */
 public class C01E03_QuickBrownFox {
-    public static final String DOG = "src/main/resources/img/dog.bmp";
-    public static final String FOX = "src/main/resources/img/fox.bmp";
+    public static final String DOG = "src/main/resources/static/img/dog.bmp";
+    public static final String FOX = "src/main/resources/static/img/fox.bmp";
 
     public static final String DEST = "F:/pdftest/chapter01/quick_brown_fox.pdf";
 
