@@ -1,4 +1,4 @@
-package com.itextpdf7.demo.example;/*
+package com.itextpdf7.demo.example.chapter1;/*
     This file is part of the iText (R) project.
     Copyright (c) 1998-2019 iText Group NV
     Authors: iText Software.

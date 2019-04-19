@@ -9,7 +9,7 @@
 /*
  * This example is part of the iText 7 tutorial.
  */
-package com.itextpdf7.demo.example;
+package com.itextpdf7.demo.example.chapter1;
 
 
 import com.itextpdf.kernel.pdf.PdfDocument;
