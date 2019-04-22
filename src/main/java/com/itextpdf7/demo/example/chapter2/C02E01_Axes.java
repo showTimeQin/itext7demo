@@ -26,7 +26,7 @@ import java.io.IOException;
 
 public class C02E01_Axes {
 
-    public static final String DEST = "results/chapter02/axes.pdf";
+    public static final String DEST = "F:/pdftest/chapter02/axes.pdf";
 
     public static void main(String args[]) throws IOException {
         File file = new File(DEST);
@@ -44,6 +44,7 @@ public class C02E01_Axes {
 
         PdfCanvas canvas = new PdfCanvas(page);
         //Replace the origin of the coordinate system to the center of the page
+        //abcd代表向量(0, 1)和(0, 1)和中心点(0, 0)的位置
         canvas.concatMatrix(1, 0, 0, 1, ps.getWidth() / 2, ps.getHeight() / 2);
 
         C02E01_Axes.drawAxes(canvas, ps);

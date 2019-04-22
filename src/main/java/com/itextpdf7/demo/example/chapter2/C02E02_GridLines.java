@@ -27,7 +27,7 @@ import java.io.IOException;
 
 public class C02E02_GridLines {
 
-    public static final String DEST = "results/chapter02/grid_lines.pdf";
+    public static final String DEST = "F:/pdftest/chapter02/grid_lines.pdf";
 
     public static void main(String args[]) throws IOException {
         File file = new File(DEST);

@@ -41,8 +41,8 @@ import java.util.StringTokenizer;
  */
 public class C03E02_PremierLeague {
 
-    public static final String DATA = "src/main/resources/data/premier_league.csv";
-    public static final String DEST = "results/chapter03/premier_league.pdf";
+    public static final String DATA = "src/main/resources/static/data/premier_league.csv";
+    public static final String DEST = "F:/pdftest/chapter03/premier_league.pdf";
 
     Color greenColor = new DeviceCmyk(0.78f, 0, 0.81f, 0.21f);
     Color yellowColor = new DeviceCmyk(0, 0, 0.76f, 0.01f);

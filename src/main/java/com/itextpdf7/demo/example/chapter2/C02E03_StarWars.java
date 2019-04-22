@@ -28,7 +28,7 @@ import java.util.List;
  */
 public class C02E03_StarWars {
 
-    public static final String DEST = "results/chapter02/star_wars.pdf";
+    public static final String DEST = "F:/pdftest/chapter02/star_wars.pdf";
 
     public static void main(String args[]) throws IOException {
         File file = new File(DEST);

@@ -45,8 +45,8 @@ import java.util.StringTokenizer;
  */
 public class C03E03_UFO {
 
-    public static final String DATA = "src/main/resources/data/ufo.csv";
-    public static final String DEST = "results/chapter03/ufo.pdf";
+    public static final String DATA = "src/main/resources/static/data/ufo.csv";
+    public static final String DEST = "F:/pdftest/chapter03/ufo.pdf";
 
     static PdfFont helvetica = null;
     static PdfFont helveticaBold = null;

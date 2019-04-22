@@ -32,14 +32,14 @@ import java.nio.file.Paths;
  */
 public class C03E01_NewYorkTimes {
 
-    public static final String DEST = "results/chapter03/new_york_times.pdf";
+    public static final String DEST = "F:/pdftest/chapter03/new_york_times.pdf";
 
-    public static final String APPLE_IMG = "src/main/resources/img/ny_times_apple.jpg";
-    public static final String APPLE_TXT = "src/main/resources/data/ny_times_apple.txt";
-    public static final String FACEBOOK_IMG = "src/main/resources/img/ny_times_fb.jpg";
-    public static final String FACEBOOK_TXT = "src/main/resources/data/ny_times_fb.txt";
-    public static final String INST_IMG = "src/main/resources/img/ny_times_inst.jpg";
-    public static final String INST_TXT = "src/main/resources/data/ny_times_inst.txt";
+    public static final String APPLE_IMG = "src/main/resources/static/img/ny_times_apple.jpg";
+    public static final String APPLE_TXT = "src/main/resources/static/data/ny_times_apple.txt";
+    public static final String FACEBOOK_IMG = "src/main/resources/static/img/ny_times_fb.jpg";
+    public static final String FACEBOOK_TXT = "src/main/resources/static/data/ny_times_fb.txt";
+    public static final String INST_IMG = "src/main/resources/static/img/ny_times_inst.jpg";
+    public static final String INST_TXT = "src/main/resources/static/data/ny_times_inst.txt";
 
     static PdfFont timesNewRoman = null;
     static PdfFont timesNewRomanBold = null;

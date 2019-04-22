@@ -32,7 +32,7 @@ import java.util.List;
 
 public class C02E04_StarWarsCrawl {
 
-    public static final String DEST = "results/chapter02/star_wars_crawl.pdf";
+    public static final String DEST = "F:/pdftest/chapter02/star_wars_crawl.pdf";
 
     public static void main(String args[]) throws IOException {
         File file = new File(DEST);
